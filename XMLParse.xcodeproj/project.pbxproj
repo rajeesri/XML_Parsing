@@ -13,6 +13,10 @@
 		FB05387023EE01C50029B149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB05386E23EE01C50029B149 /* Main.storyboard */; };
 		FB05387223EE01C50029B149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB05387123EE01C50029B149 /* Assets.xcassets */; };
 		FB05387523EE01C50029B149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB05387323EE01C50029B149 /* LaunchScreen.storyboard */; };
+		FB05387E23EE01DD0029B149 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FB05387D23EE01DD0029B149 /* Book.m */; };
+		FB05388023EE01EA0029B149 /* BookList.xml in Resources */ = {isa = PBXBuildFile; fileRef = FB05387F23EE01EA0029B149 /* BookList.xml */; };
+		FB05388323EE01F50029B149 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB05388223EE01F50029B149 /* BookTableViewCell.m */; };
+		FB05388623EE02000029B149 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB05388523EE02000029B149 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		FB05387123EE01C50029B149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB05387423EE01C50029B149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB05387623EE01C50029B149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB05387C23EE01DD0029B149 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		FB05387D23EE01DD0029B149 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		FB05387F23EE01EA0029B149 /* BookList.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BookList.xml; sourceTree = "<group>"; };
+		FB05388123EE01F50029B149 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		FB05388223EE01F50029B149 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		FB05388423EE02000029B149 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		FB05388523EE02000029B149 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,12 @@
 				FB05386923EE01C50029B149 /* AppDelegate.m */,
 				FB05386B23EE01C50029B149 /* ViewController.h */,
 				FB05386C23EE01C50029B149 /* ViewController.m */,
+				FB05387C23EE01DD0029B149 /* Book.h */,
+				FB05387D23EE01DD0029B149 /* Book.m */,
+				FB05388123EE01F50029B149 /* BookTableViewCell.h */,
+				FB05388223EE01F50029B149 /* BookTableViewCell.m */,
+				FB05388423EE02000029B149 /* DetailsViewController.h */,
+				FB05388523EE02000029B149 /* DetailsViewController.m */,
 				FB05386E23EE01C50029B149 /* Main.storyboard */,
 				FB05387123EE01C50029B149 /* Assets.xcassets */,
 				FB05387323EE01C50029B149 /* LaunchScreen.storyboard */,
@@ -74,6 +91,7 @@
 		FB05386523EE01C50029B149 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB05387F23EE01EA0029B149 /* BookList.xml */,
 				FB05386623EE01C50029B149 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +157,7 @@
 			files = (
 				FB05387523EE01C50029B149 /* LaunchScreen.storyboard in Resources */,
 				FB05387223EE01C50029B149 /* Assets.xcassets in Resources */,
+				FB05388023EE01EA0029B149 /* BookList.xml in Resources */,
 				FB05387023EE01C50029B149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB05388323EE01F50029B149 /* BookTableViewCell.m in Sources */,
+				FB05387E23EE01DD0029B149 /* Book.m in Sources */,
 				FB05386D23EE01C50029B149 /* ViewController.m in Sources */,
+				FB05388623EE02000029B149 /* DetailsViewController.m in Sources */,
 				FB05386A23EE01C50029B149 /* AppDelegate.m in Sources */,
 				FB05386723EE01C50029B149 /* main.m in Sources */,
 			);
@@ -307,6 +329,7 @@
 				FB05387B23EE01C50029B149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
